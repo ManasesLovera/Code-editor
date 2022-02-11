@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Manases">
+    <meta name="description" content="First web app using react">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/1200px-React.svg.png">
+    <title>Using react for the first time</title>
+</head>
+<body>
+    
+        <div className="container">
+            <textarea onchange="handleChange()" class="code" id="code"></textarea>
+            <iframe class="result" id="result" srcdoc=""></iframe>
+        </div>
+    
+
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script type='text/babel' src="main.jsx"></script>
+    <script src="main.js"></script>
+</body>
+</html>

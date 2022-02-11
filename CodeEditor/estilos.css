@@ -1,0 +1,48 @@
+*{
+    font-size:1.1em ;
+}
+.container {
+    width: 90vw;
+    height: 90vh;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.code {
+    resize: none;
+    width: 40vw;
+    height: 90vh;
+    padding: 10px;
+    color: #fff;
+    background:#222;
+}
+.code::selection{
+    background: #999;
+}
+.result {
+    width: 56%;
+    height: 90vh;
+    border:#222 solid;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* .form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+input {
+    padding: 5px;
+    margin: 10px;
+} */
